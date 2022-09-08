@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Add Product Site</title>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="main">
+      <form>
+        <label for="ID" id="proId"
+          >Product ID <input type="text" id="ID" /></label
+        ><br /><br />
+        <label for="name" id="proName"
+          >Product Name <input type="text" id="name" /></label
+        ><br /><br />
+        <label for="price" id="proPrice"
+          >Product ID <input type="text" id="price" /></label
+        ><br /><br /><br /><br />
+        <input type="button" onclick="addProduct()" id="submit" value="ADD PRODUCT" />
+      </form>
+      <br><br><br>
+        <table id="myTable">
+        </table>
+    </div>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
