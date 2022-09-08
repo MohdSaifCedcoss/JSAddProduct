@@ -1,0 +1,58 @@
+td {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: medium;
+  padding-left: 200px;
+  padding-right: 220px;
+  border-bottom: 1px dashed darksalmon;
+}
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+div2 {
+  text-align: center;
+  margin-left: 10%;
+  padding-left: 30%;
+  width: 40%;
+}
+#form1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 5%;
+  margin-left: 40%;
+}
+#proId {
+  padding-left: 1%;
+  margin-left: 2%;
+}
+#proPrice {
+  margin-left: 8%;
+}
+#submit {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: auto;
+  margin-left: 12%;
+  width: 15%;
+  height: 35px;
+  border-radius: 10px;
+  border: 1px dashed brown;
+}
+#ID {
+  font-size: medium;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  width: 23%;
+  height: 20px;
+}
+#name {
+  font-size: medium;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  width: 23%;
+  height: 20px;
+}
+#price {
+  font-size: medium;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  width: 23%;
+  height: 20px;
+}
