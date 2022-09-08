@@ -1,35 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
     <meta charset="UTF-8" />
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <title>Add Product Site</title>
+    
     <link rel="stylesheet" href="style.css">
+  
   </head>
+  
   <body>
+    <!-- Main Container -->
     <div class="main">
+
+      <!-- Form for getting value from the user -->
       <form id="form1">
+
         <label for="ID" id="proId"
           >Product ID <input type="text" id="ID" /></label
-        ><br /><br />
+        >
+        <br /><br />
+
         <label for="name" id="proName"
           >Product Name <input type="text" id="name" /></label
-        ><br /><br />
+        >
+        <br /><br />
+
         <label for="price" id="proPrice"
           >Price <input type="text" id="price" /></label
-        ><br /><br /><br /><br />
+        >
+        <br /><br /><br /><br />
+
+        <!-- Buttton on click will call the function which will distribute the data -->
         <input type="button" onclick="addProduct()" id="submit" value="ADD PRODUCT" />
+
       </form>
+
       <br><br><br>
+
       <div style="display: flex;">
+
       <h3 style="margin: auto;">Product ID</h3>
+
       <h3 style="margin: auto;">Name</h3> 
+
       <h3 style="margin: auto;">Price</h3>
+
       </div class="div2">
+
+        <!-- Creating a table for representing the data in the tabular form -->
         <table id="myTable">
         </table>
+
     </div>
+
+    </div>
+
+    <!-- Adding script -->
     <script src="index.js"></script>
+
   </body>
 </html>

@@ -5,27 +5,45 @@ td {
   padding-right: 220px;
   border-bottom: 1px dashed darksalmon;
 }
+
+body {
+  margin-bottom: auto;
+  background-color: bisque;
+}
+
+.main {
+  padding-bottom: 2%;
+  margin-top: 5%;
+  padding-top: 1%;
+  background-color: azure;
+}
+
 h3 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 div2 {
   text-align: center;
   margin-left: 10%;
   padding-left: 30%;
   width: 40%;
 }
+
 #form1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 5%;
   margin-left: 40%;
 }
+
 #proId {
   padding-left: 1%;
   margin-left: 2%;
 }
+
 #proPrice {
   margin-left: 8%;
 }
+
 #submit {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   margin-top: auto;
@@ -35,6 +53,7 @@ div2 {
   border-radius: 10px;
   border: 1px dashed brown;
 }
+
 #ID {
   font-size: medium;
   font-family: "Times New Roman", Times, serif;
@@ -42,6 +61,7 @@ div2 {
   width: 23%;
   height: 20px;
 }
+
 #name {
   font-size: medium;
   font-family: "Times New Roman", Times, serif;
@@ -49,6 +69,7 @@ div2 {
   width: 23%;
   height: 20px;
 }
+
 #price {
   font-size: medium;
   font-family: "Times New Roman", Times, serif;
